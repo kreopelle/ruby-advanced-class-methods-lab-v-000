@@ -62,6 +62,8 @@ class Song
     song = self.new
     song.artist_name = data[0]
     song.name = data[1].chomp(".mp3")
+    @@all << song
+    song
   end 
 
 
