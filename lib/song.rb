@@ -38,7 +38,7 @@ class Song
       create_by_name(name)
     else
       self
-    end 
+    end
   end
 
 end
