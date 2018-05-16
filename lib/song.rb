@@ -64,7 +64,7 @@ class Song
     song.name = data[1].chomp(".mp3")
     @@all << song
     song
-  end 
+  end
 
 
 end
